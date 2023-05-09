@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  width: 30%;
+  width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: white;
@@ -34,7 +34,7 @@ main {
 }
 
 .left p:nth-of-type(1) {
-  color: hsl(225, 39%, 69%);
+  color: #b8acff;
   font-size: 1.5rem;
   font-weight: bolder;
   padding-bottom: 30px;
@@ -42,7 +42,7 @@ main {
 
 .left p:nth-of-type(2) {
   text-align: center;
-  color: hsl(224, 26%, 51%);
+  color: #aca7ff;
   font-size: 17px;
   padding-bottom: 20px;
 }
@@ -90,11 +90,12 @@ main {
   background-color: white;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  padding: 30px 35px;
+  padding: 30px;
 }
 
 .right h2 {
   font-weight: 900;
+  color:#414964;
 }
 
 .card-one,
@@ -103,8 +104,9 @@ main {
 .card-four {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100%;
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
 }
 
@@ -115,19 +117,19 @@ main {
 }
 
 .card-one .left-in-card p {
-    color:#ff7474;
+    color:#cf7376;
 }
 
 .card-two .left-in-card p {
-    color:#ffcc6c;
+    color:#eeb53b;
 }
 
 .card-three .left-in-card p {
-    color:#a1e2ca;
+    color:#63b3a0;
 }
 
 .card-four .left-in-card p {
-    color:#4252de;
+    color:#4b54ba;
 }
 
 
@@ -141,19 +143,19 @@ main {
 }
 
 .card-one {
-  background-color: #fe72704f;
+  background-color: #fff6f5;
 }
 
 .card-two {
-  background-color: #feba3b36;
+  background-color: #fffbf2;
 }
 
 .card-three {
-  background-color: #6fba6a2f;
+  background-color: #f2fafa;
 }
 
 .card-four {
-  background-color: #3142d857;
+  background-color: #f3f3fd;
 }
 
 button {
